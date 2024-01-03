@@ -1,0 +1,5 @@
+cd $(cd $(dirname $0); pwd)
+while(true) do
+screen -S luabot -X kill
+screen -S luabot ./Theloner
+done
